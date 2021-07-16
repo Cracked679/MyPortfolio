@@ -126,3 +126,13 @@ ol {
   text-transform: uppercase;
   transition: all 0.5s ease-in-out 0s;
 }
+
+@media screen and (max-width: 800px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-img {
+    order: 1;
+  }
+}
